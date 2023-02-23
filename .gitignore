@@ -52,3 +52,6 @@ terraform.rc
 
 *.out
 .VSCodeCounter/*
+
+# param
+*azuredeploy.parameters.*

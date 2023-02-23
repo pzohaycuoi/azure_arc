@@ -35,7 +35,7 @@ variable "agent_count" {
 variable "agent_vm_size" {
   type        = string
   description = "The size of the VM."
-  default     = "Standard_D8s_v4"
+  default     = "Standard_D4s_v4"
 }
 
 variable "linux_admin_Username" {
