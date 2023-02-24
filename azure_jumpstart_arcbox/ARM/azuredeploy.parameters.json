@@ -3,16 +3,16 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "sshRSAPublicKey": {
-            "value": "<your RSA public key>"
+            "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDKQa0O2nG5joPvlMuHE+WVjyAb8nGI1NiLuGR7gSMRbBm9fGqG9YuWlT8GQIxOnFhBafKatZkxv20u5yGKxoewZPsvIHfU20XnwfDDT5iZoCU44nKoRkyXXm53iUOaUiFH2P9GLsKnvUkj6L3ZPQFsBvxjT4vOJ/of1MnAvpljYcZU/wWmmaM5Nmv2c9yAysLwLgc2FC1uyg+RCYBJVKQ1kOoQkUEwo42moyd1lm0yCE7bZb9XZDT0z7bonkjivhayK2MNW5JGHTaQ6jnkCBQBmy0tE6qZKvem2zf8nISg7KnxMhtLFKuYDRqYsGR1TvYM/ymkJzWaOu0jSW+fn8BFkq3hcXGWbQY315eI+BXjHg8MAPE4LR+f/mOFKDif/Je+f6B3SHVH7L0aGFdlrXdrIFobz5HZ3nT3XcDYhYWztfKukMWvJa9WFiOm9iJkEjWu7VlaWWIzFDcjKykB4k2fKknJioRdD+rD2q8eGFYkjoI/sepEO5qt1tCzHirz+wMGnUBFBSyXe18+TX8vyM3cCEc5mE4NGY0pXWk6ibEwEopHCe2q2KoeZ/OlC/krv8YVJ+PqBUKMCU/Zpco85Pd5K1BgBDwQyIoaGwUk8gVSwKG5ykoPfsn5dE4fyhCp0qMAeTnQ55x4by1l2Ea7scP3ZMr8uXPpj5Oow3Ib0X7pRQ== namng@YahagaThinkpad"
         },
         "spnClientId": {
-            "value": "<your service principal client id>"
+            "value": "20420a8d-3e19-435b-ba64-eb9a597ecd24"
         },
         "spnClientSecret": {
-            "value": "<your service principal secret>"
+            "value": "MHh8Q~v~_IJIBPaCu-fF_ZYAdf-CGwFB6.5J.aV2"
         },
         "spnTenantId": {
-            "value": "<your spn tenant id>"
+            "value": "ee914654-8200-4818-8c32-70a2e49e5d98"
         },
         "windowsAdminUsername": {
             "value": "arcdemo"
@@ -21,16 +21,16 @@
             "value": "ArcPassword123!!"
         },
         "logAnalyticsWorkspaceName": {
-            "value": "<your unique Log Analytics workspace name>"
+            "value": "azure-arc-dataops-la-westus2" 
         },
         "flavor": {
-            "value": "Full"
+            "value": "DataOps"
         },
         "deployBastion": {
-            "value": false
+            "value": true
         },
         "githubUser": {
-            "value": "microsoft"
+            "value": "pzohaycuoi"
         }
     }
 }
